@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <title>Login</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- banner -->
+        <div class="col-9 bg-primary content__img">
+          <img
+            src="../assets/img/character.png"
+            alt=""
+            class="character__img img-fluid"
+          />
+        </div>
+
+        <!-- form -->
+        
+        <div class="col-3 d-flex align-items-center justify-content-center contents">
+          <div class="row justify-content-center">
+            <div class="col-md-8 form">
+              <div class="mb-4">
+                <img src="../assets/img/icon.png" alt="" class="icon" />
+                <div class="desc">
+                  <p class="title">Sign Up</p>
+                  <p class="caption">
+                    Already have an account? <a href="#">Login</a>
+                  </p>
+                </div>
+              </div>
+              <form action="#" method="post">
+                <div class="form-group first">
+                  <div class="input-group input-group-outline mb-3">
+                    <input  name="username" required type="text" class="form-control  rounded-4 text" placeholder="Username">
+                  </div>
+                  <div class="input-group input-group-outline mb-3">
+                    <input  name="email" required type="text" class="form-control rounded-4 text" placeholder="Email">
+                  </div>
+                  <div class="input-group input-group-outline mb-3">
+                    <input  name="password" required type="password" class="form-control rounded-4 text" placeholder="Password" >
+                  </div>
+                  <div class="input-group input-group-outline mb-3">
+                    <input  name="username" required type="password" class="form-control rounded-4 text" placeholder="Confirm Password">
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox" checked="checked" />
+                    <span class="caption text">Accept Term & Condition</span>
+                  </div>
+
+                <input
+                  type="submit"
+                  value="Log In"
+                  class="btn rounded-4 w-100 my-4 mb-2"
+                />
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js.map"></script>
+</html>

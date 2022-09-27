@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/icomoon/style.css">
+    
+    <title>Login</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- banner -->
+        <div class="col-9 bg-primary content__img">
+          <img
+            src="./assets/img/character.png"
+            alt=""
+            class="character__img img-fluid"
+          />
+        </div>
+
+        <!-- form -->
+        
+        <div class="col-3 d-flex align-items-center justify-content-center contents">
+          <div class="row justify-content-center">
+            <div class="col-md-8 form">
+              <div class="mb-4">
+                <img src="./assets/img/icon.png" alt="" class="icon" />
+                <div class="desc">
+                  <p class="title">Sign In</p>
+                  <p class="caption">
+                    Hi Welcome Back to Dr-ticket
+                  </p>
+                </div>
+              </div>
+              <form action="#" method="post">
+                <div class="form-group first">
+                  <div class="input-group input-group-outline mb-2">
+                    <input  name="username" required type="text" class="form-control  rounded-4 text" placeholder="Username">
+                  </div>
+                  <div class="input-group input-group-outline mb-2">
+                    <input  name="email" required type="text" class="form-control rounded-4 text" placeholder="Email">
+                  </div>
+                  <div class="input-group input-group-outline mb-3">
+                    <input  name="password" required type="password" class="form-control rounded-4 text" placeholder="Password" >
+                  </div>
+                <a href="#" class="forgot-pass caption">Forgot Password?</a>
+
+                <input
+                  type="submit"
+                  value="Log In"
+                  class="btn w-100 rounded-4 my-4 mb-2"
+                />
+                <span class="d-block text-center my-4 text-muted desc-caption">or Sign In with</span>
+
+                  <div class="social-login">
+                      <div class="google"> <a href="#">
+                        <img src="./assets/img/google.svg" alt="google" class="img-google">
+                      </a>
+                    </div>
+                     <div class="fb"><a href="#">
+                        <img src="./assets/img/fb.svg" alt="fb" class="img-fb">
+                      </a>
+                    </div>                                 
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js.map"></script>
+</html>
