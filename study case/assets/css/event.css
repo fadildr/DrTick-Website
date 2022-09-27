@@ -54,14 +54,15 @@ header {
 }
 .user {
   display: flex;
+  font-size: 12px;
 }
-.user-img {
+/* .user-img {
   padding-left: 2px;
 }
 .username {
   position: absolute;
   padding-bottom: 0%;
-}
+} */
 .container {
   background-color: white;
 }
