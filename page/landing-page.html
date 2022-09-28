@@ -22,23 +22,46 @@
     <title>main</title>
   </head>
   <body>
-    <header>
-      <img src="../assets/img/icon.png" alt="logo" class="logo" />
-      <nav>
-        <ul class="nav__link">
-          <li><a href="#" class="nav__link--a">Home</a></li>
-          <li><a href="#" class="nav__link--a">Create Event</a></li>
-          <li><a href="#" class="nav__link--a">Location</a></li>
-        </ul>
-      </nav>
-      <div class="button__auth">
-        <a href="#" class="btn btn-outline-primary rounded-5 mx-2"> Sign In </a>
-        <a href="#" class="btn btn-primary rounded-5">Sign Up</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/img/icon.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Create Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location</a>
+            </li>
+          </ul>
+          <div class="d-flex gap-3">
+            <button class="btn btn-outline-primary" type="submit">
+              Sign In
+            </button>
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
+        </div>
       </div>
-    </header>
-    <section class="banner w-100 h-100">
-      <!-- <img src="../assets/img/bg-full.jpg" alt="banner" class="banner__image" /> -->
-      <div class="container container-banner w-100 h-100">
+    </nav>
+    <section class="banner">
+      <img src="../assets/img/bg-full.jpg" alt="banner" class="banner__image" />
+      <div class="container-banner">
         <h1>
           Find Event You Love <br />
           With Our
@@ -221,9 +244,17 @@
       </button>
     </div>
     <!-- footer -->
-    <footer class="footer align-item-center">
+    <footer
+      class="
+        footer
+        container
+        justify-content-center
+        align-items-center
+        text-center
+      "
+    >
       <div class="container-footer">
-        <div class="row mx-4">
+        <div class="row mx-3">
           <div class="col-md-4 pr-md-5">
             <a href="#" class="footer-logo d-block mb-3"
               ><img src="../assets/img/icon.png" alt=""
