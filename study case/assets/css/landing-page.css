@@ -52,6 +52,10 @@ header {
 }
 .banner {
   position: relative;
+  background-image: url(../img/bg-full.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 }
 .container-banner {
   /* background-image: url(../img/bg-full.jpg); */
@@ -61,6 +65,8 @@ header {
   /* display: flex; */
   justify-content: center;
   align-items: center;
+  padding-top: 500px;
+  /* padding-bottom: 200px; */
 }
 .banner__image {
   width: 100%;
