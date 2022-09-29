@@ -7,11 +7,11 @@
     <a href="https://github.com/fadildr/DrTick-Website/pulls">Request Feature</a>
   </p>
 
-![Image Banner](capture.PNG)
+[![Image Banner](capture.png)]
 
 ## About The Project
 
-#background_projek.
+<!-- #background_projek.  -->
 
 ## Built With
 
