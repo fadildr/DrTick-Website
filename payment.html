@@ -12,12 +12,12 @@
     />
     <!-- icomoon -->
     <link rel="stylesheet" href="./assets/icomoon/style.css" />
-    <link rel="stylesheet" href="./assets/css/order.css" />
+    <link rel="stylesheet" href="./assets/css/payment.css" />
     <link
       rel="stylesheet"
       href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
     />
-    <title>Order Page</title>
+    <title>Payment</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top py-1">
@@ -59,137 +59,39 @@
         </div>
       </div>
     </nav>
-
-    <div class="container rounded-5 d-flex bg-white">
-      <div class="col-6 content__img">
-        <img src="./assets/img/grup-ticket.png" alt="" class="character__img" />
-      </div>
-
-      <div
-        class="col-6 d-flex align-items-center justify-content-center contents"
-      >
-        <!-- <div class="justify-content-center bg-primary"> -->
-        <div class="form">
-          <div class="date-location d-flex">
-            <p class="title">Ticket</p>
-            <p class="title-price">By price</p>
+    <!-- section -->
+    <section class="container bg-white">
+      <div class="row">
+        <div class="col-6 "><div class="section-right  my-4 mx-5 p-3">
+            <p class="title">Payment Method</p>
+        <div class="desc-footer d-flex mt-4">
+            
           </div>
-          <div class="section d-flex">
-            <div class="tick-img">
-              <img src="./assets/img/ticket.svg" alt="" class="mt-2" />
-            </div>
-            <div class="description">
-              <div class="left-section">
-                <p class="title-section">Section reg, Row 1</p>
-                <p class="desc1">12 Seats available</p>
-                <p class="quantity">Quantity</p>
+          
+        </div></div>
+        <div class="col-6">
+            <div class="section-right  my-4 mx-5 p-3">
+                <p class="title">Ticket Detail</p>
+            <div class="desc-footer d-flex mt-4">
+                <div class="desc-footer-left">
+                  <p>Event</p>
+                  <p>Ticket Section</p>
+                  <p>Quantity</p>
+                  <p>Total Payment</p>
+                </div>
+                <div class="desc-footer-right">
+                  <p>Sights & Sounds Exhibition</p>
+                  <p>VIP</p>
+                  <p>2</p>
+                  <p>$70</p>
+                </div>
               </div>
+              <button type="submit"  class="btn rounded-4 btn-primary w-100 my-4 mb-2" onclick="document.location='index.html'">Payment</button>
             </div>
-            <div class="right-section m-2 text-center">
-              <p>$15</p>
-              <p class="desc2">per person</p>
-              <div
-                class="jumlah d-flex align-items-center justify-content-center"
-              >
-                <button class="btn-jumlah">+</button>
-                <p class="jumlah-angka">0</p>
-                <button class="btn-jumlah">-</button>
-              </div>
             </div>
-          </div>
-          <div class="section d-flex">
-            <div class="tick-img">
-              <img src="./assets/img/ticket.svg" alt="" class="mt-2" />
-            </div>
-            <div class="description">
-              <div class="left-section">
-                <p class="title-section">Section reg, Row 1</p>
-                <p class="desc1">12 Seats available</p>
-                <p class="quantity">Quantity</p>
-              </div>
-            </div>
-            <div class="right-section m-2 text-center">
-              <p>$15</p>
-              <p class="desc2">per person</p>
-              <div
-                class="jumlah d-flex align-items-center justify-content-center"
-              >
-                <button class="btn-jumlah">+</button>
-                <p class="jumlah-angka">0</p>
-                <button class="btn-jumlah">-</button>
-              </div>
-            </div>
-          </div>
-          <div class="section d-flex">
-            <div class="tick-img">
-              <img src="./assets/img/ticket.svg" alt="" class="mt-2" />
-            </div>
-            <div class="description">
-              <div class="left-section">
-                <p class="title-section">Section reg, Row 1</p>
-                <p class="desc1">12 Seats available</p>
-                <p class="quantity">Quantity</p>
-              </div>
-            </div>
-            <div class="right-section m-2 text-center">
-              <p>$15</p>
-              <p class="desc2">per person</p>
-              <div
-                class="jumlah d-flex align-items-center justify-content-center"
-              >
-                <button class="btn-jumlah">+</button>
-                <p class="jumlah-angka">0</p>
-                <button class="btn-jumlah">-</button>
-              </div>
-            </div>
-          </div>
-          <div class="section d-flex border-bottom pb-4">
-            <div class="tick-img">
-              <img src="./assets/img/ticket.svg" alt="" class="mt-2" />
-            </div>
-            <div class="description">
-              <div class="left-section">
-                <p class="title-section">Section reg, Row 1</p>
-                <p class="desc1">12 Seats available</p>
-                <p class="quantity">Quantity</p>
-              </div>
-            </div>
-            <div class="right-section m-2 text-center">
-              <p>$15</p>
-              <p class="desc2">per person</p>
-              <div
-                class="jumlah d-flex align-items-center justify-content-center"
-              >
-                <button class="btn-jumlah">+</button>
-                <p class="jumlah-angka">0</p>
-                <button class="btn-jumlah">-</button>
-              </div>
-            </div>
-          </div>
-          <div class="desc-footer d-flex mt-4">
-            <div class="desc-footer-left">
-              <p>Ticket Section</p>
-              <p>Quantity</p>
-              <p>Total Payment</p>
-            </div>
-            <div class="desc-footer-right">
-              <p>VIP</p>
-              <p>2</p>
-              <p>$70</p>
-            </div>
-          </div>
-          <button
-            type="submit"
-            href="payment.html"
-            class="btn rounded-4 btn-primary w-100 my-4 mb-2"
-          >
-            Chegk Out
-          </button>
         </div>
-        <!-- </div> -->
       </div>
-      <!-- </div> -->
-    </div>
+    </section>
     <!-- footer -->
     <footer
       class="
