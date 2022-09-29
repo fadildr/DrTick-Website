@@ -38,6 +38,12 @@ body {
   background-color: white;
   margin-top: 150px;
 }
+.content__img {
+  margin-top: -100px;
+  /* top: 0;
+  width: 200px;
+  height: 200px; */
+}
 .row {
   width: 100%;
   height: 100%;
