@@ -7,7 +7,7 @@
     <a href="https://github.com/fadildr/DrTick-Website/pulls">Request Feature</a>
   </p>
 
-[![Image Banner](capture.png)]
+![Image Banner](capture.png)
 
 ## About The Project
 
