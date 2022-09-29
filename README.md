@@ -1,6 +1,6 @@
 <h1 align='center'>Dr-Tick </h1>
   <p align="center">
-    <a href="link_deploy">View Demo</a>
+    <a href="https://633524a22e232c42079e89d3--fabulous-lily-07c61c.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/fadildr/DrTick-Website/issues">Report Bug</a>
     ·
