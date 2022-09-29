@@ -11,6 +11,7 @@
 } */
 .container {
   margin: 0%;
+  display: flex;
 }
 .row {
   width: 100%;
@@ -18,7 +19,7 @@
 }
 
 .character__img {
-  width: 200px;
+  width: 500px;
   margin: 150px auto;
   display: block;
 }
